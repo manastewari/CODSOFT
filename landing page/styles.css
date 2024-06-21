@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    max-width: 1800px;
+    margin: auto;
+    padding: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: normal;
+    padding: 10px 0;
+
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(220, 18, 18);
+}
+.logo1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(252, 252, 252);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 55px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 23px;
+ text-align: center;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000d2;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.text-content {
+    max-width: 50%;
+}
+
+.text-content h2 {
+    font-size: 35px;
+    color: #ff4c4c;
+    margin-bottom: 10px;
+
+}
+
+.text-content h1 {
+    font-size: 48px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.search-box {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.search-box input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    flex-grow: 1;
+}
+
+.search-box button {
+    padding: 10px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #ff4c4c;
+    color: white;
+    cursor: pointer;
+}
+
+.buy-now {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #ff4c4c;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+.image-content img {
+    max-width: 100%;
+   height:auto;
+}
